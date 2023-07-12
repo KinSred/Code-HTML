@@ -72,12 +72,12 @@ document.querySelector(".recieve").addEventListener("click", () => {
 
 // Animation Drop light _ Tạo hiệu ứng kim tuyến rơi
 //Bạn có thể thiết kế lại để trông chân thật hơn nhé, thiết kế của mình hơi bị cứng và thiếu sự tự nhiên
-const getBackground = document.querySelector(".backgroundParty");
+const getBackground = document.querySelector(".startForm ");
 var width = getBackground.offsetWidth;
 var height = getBackground.offsetHeight;
 
 function createLight(a) {
-    var container = document.querySelector(".backgroundParty");
+    var container = document.querySelector(".startForm ");
     const blurLv = [2, 4];
     const count = a;
     const allDefaultColor = ["red", "white", "yellow", "orange", "blue"]

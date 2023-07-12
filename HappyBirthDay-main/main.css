@@ -131,7 +131,7 @@ body
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: rgb(23, 21, 21);
+    background-color: rgb(9, 5, 5);
 }
 
 .balloon {
@@ -357,7 +357,7 @@ body
 
     .recieve {
         bottom: 10px;
-        box-shadow: 4px 4px 4px gray;
+        box-shadow: 4px 4px 4px rgb(246, 111, 237);
     }
 
     .recieve>i {

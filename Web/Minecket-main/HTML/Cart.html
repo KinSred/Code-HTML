@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--=== Default Tags ===-->
+    <meta charset="UTF-8">
+    <title>BlastMC - Ví</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Images/logo.webp" type="image/x-icon">
+
+    <!--=== Stylesheets ===-->
+    <link rel="stylesheet" href="../CSS/Base.css">
+    <link rel="stylesheet" href="../CSS/Pages/Cart.css">
+    <link rel="stylesheet" href="../CSS/Sections/Play.css">
+    <link rel="stylesheet" href="../CSS/Sections/Footer.css">
+    <link rel="stylesheet" href="../CSS/Sections/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Classes/Framework.css">
+
+    <!--=== Social Profile ===-->
+    <meta property="og:title" content="Minecket - Cart">
+    <meta property="og:description" content="View your cart products.">
+    <meta property="og:thumbnail" content="https://images.alphacoders.com/783/thumbbig-783153.webp">
+
+    <!--=== SEO ===-->
+    <meta name="description" content="View your cart products.">
+    <meta name="keywords" content="minecket, minecraft shop, minecraft server, cart minecket">
+    <meta name="author" content="Henry8K"> <!--=== Github: Henry8K ===--> 
+    <meta name="robots" content="index, follow"> <!--=== Robots indexing ===-->
+    <meta name="googlebot" content="index, follow"> <!--=== Robots indexing ===-->
+    <link rel="canonical" href=""> <!--=== Enter your URL here ===-->
+</head>
+
+<body>    
+    <!--=== Navigation Bar ===-->
+    <nav class="nav">
+        <div class="nav-logo flex">
+            <img src="../Images/logo.webp" alt="Minecket server logo" width="70px" height="70px">
+            <h1>BlastMC</h1> 
+        </div>
+
+        <div class="nav-list flex">
+            <a class="nav-item-1" href="../HTML/Index.html"><span>Trang Chủ</span></a> 
+            <a class="nav-item-2" href="../HTML/Shop.html"><span>Chợ</span></a>
+            <a class="nav-item-3" href="../HTML/Rules.html"><span>Luật</span></a>
+            <a class="nav-item-4" href="https://discord.gg/blastcity2023"><span>Discord</span></a> 
+            <!-- <a class="nav-item-5" href="https://minecraftpocket-servers.com/"><span>Vote</span></a> -->
+        </div>
+
+        <div class="flex">
+            <a href="../HTML/Login.html" class="nav-btn btn-login flex">
+                <img src="../Images/login.webp" alt="Login icon" width="20px" height="20px">
+                <span>Đăng Nhập</span>
+            </a>
+            
+            <a href="../HTML/Cart.html" class="nav-btn btn-sucess btn-cart flex">
+                <img src="../Images/cart.webp" alt="Shopping cart icon" width="20px" height="20px">
+                <span>Ví</span>
+            </a>
+        </div>
+    </nav>
+
+    <!--=== Navbar for mobile ===-->
+    <section class="nav-mobile">
+        <div class="nav-mobile-title flex">
+            <div class="navbars-bars">
+                <div class="bar bar-1"></div>
+                <div class="bar bar-2"></div>
+                <div class="bar bar-3"></div>
+            </div>
+
+            <div class="navbars-title flex">
+                <img src="../Images/logo.webp" alt="Minecket server logo" width="30px" height="30px">
+                <h1>BlastMC</h1>
+            </div>
+        </div>
+
+        <div class="nav-mobile-menu flex">
+            <a href="../HTML/Index.html"><span>Trang chủ</span></a> 
+            <a href="../HTML/Shop.html"><span>Chợ</span></a>
+            <a href="../HTML/Rules.html"><span>Luật</span></a>
+            <a href="https://discord.gg/blastcity2023"><span>Discord</span></a> 
+            <a href="../HTML/Login.html"><span>Đăng Nhập</span></a>
+            <a href="../HTML/Cart.html"><span>Ví</span></a>
+            <!-- <a href="https://minecraftpocket-servers.com/"><span>Vote</span></a> -->
+        </div>
+    </section>
+
+    <!--=== Cart Section ===-->
+    <section class="cart">
+        <div class="cart-title">
+            <h1>Ví</h1>
+            <span>Giỏ hàng của bạn!</span>
+        </div>
+
+        <div class="carts flex">
+            <div class="cart-item flex" id="cart-item-1">
+                <img src="../Images/bronze-rank.webp" alt="Bronze VIP Image">
+                
+                <div class="cart-item-content">
+                    <h1>Tướng Quân</h1>
+                    <span>Lợi ích:</span>
+    
+                    <ul>
+                        <li>Đang cập nhật</li>
+                        <!-- <li>Early access to new minigames that will be launched in the future.</li> -->
+                        <!-- <li>10% discount on items in the server store.</li> -->
+                        <!-- <li>Access to exclusive kits.</li> -->
+                        <!-- <li>Prioritization in the entry queues for popular minigames.</li> -->
+                        <!-- <li>An exclusive Bronze emblem in the chat.</li> -->
+                    </ul>
+
+                    <a href="#" class="btn btn-alert" id="remove-item-1">Hủy</a>                    
+                </div>
+            </div>
+
+            <div class="cart-item flex" id="cart-item-2">
+                <img src="../Images/silver-rank.webp" alt="Silver VIP Image">
+                
+                <div class="cart-item-content">
+                    <h2>Hoàng Tộc</h2>
+                    <span>Lợi ích:</span>
+    
+                    <ul>
+                        <li>Đang cập nhật</li>
+                        <!-- <li>Early access to new minigames that will be launched in the future.</li> -->
+                        <!-- <li>10% discount on items in the server store.</li> -->
+                        <!-- <li>Access to exclusive kits.</li> -->
+                        <!-- <li>Prioritization in the entry queues for popular minigames.</li> -->
+                        <!-- <li>An exclusive Bronze emblem in the chat.</li> -->
+                    </ul>
+
+                    <a href="#" class="btn btn-alert" id="remove-item-2">Hủy</a>                    
+                </div>
+            </div>
+            
+            <div class="cart-item flex" id="cart-item-3">
+                <img src="../Images/gold-rank.webp" alt="Gold VIP Image">
+                
+                <div class="cart-item-content">
+                    <h2>Hoàng Đế</h2>
+                    <span>Lợi ích:</span>
+    
+                    <ul>
+                        <li>Đang cập nhật</li>
+                        <!-- <li>Early access to new minigames that will be launched in the future.</li> -->
+                        <!-- <li>10% discount on items in the server store.</li> -->
+                        <!-- <li>Access to exclusive kits.</li> -->
+                        <!-- <li>Prioritization in the entry queues for popular minigames.</li> -->
+                        <!-- <li>An exclusive Bronze emblem in the chat.</li> -->
+                    </ul>
+
+                    <a href="#" class="btn btn-alert" id="remove-item-3">Hủy</a>
+                </div>
+            </div>    
+
+            <div class="cart-item flex" id="cart-item-4">
+                <img src="../Images/cosmetics.webp" alt="Cosmetics Image">
+                
+                <div class="cart-item-content">
+                    <h2>Thần Tiên</h2>
+                    <span>Lợi ích:</span>
+    
+                    <ul>
+                        <li>Đang cập nhật</li>
+                        <!-- <li>Early access to new minigames that will be launched in the future.</li> -->
+                        <!-- <li>10% discount on items in the server store.</li> -->
+                        <!-- <li>Access to exclusive kits.</li> -->
+                        <!-- <li>Prioritization in the entry queues for popular minigames.</li> -->
+                        <!-- <li>An exclusive Bronze emblem in the chat.</li> -->
+                    </ul>
+
+                    <a href="#" class="btn btn-alert" id="remove-item-4">Hủy</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--=== Empty Cart Section ===-->
+        <div class="cart-none flex" id="cart-none">
+            <img src="../Images/steve.webp" alt="Empty cart image">
+        
+            <div class="carrinho-none-content">
+                <h2>Trống!</h2>
+                <span>Hãy thêm rank bạn muốn mua vào đây.</span>
+            </div>
+        </div>
+
+        <a href="../HTML/Checkout.html" class="btn btn-dark">Thanh Toán</a>          
+    </section>
+
+    <!--=== Footer Section ===-->
+    <footer class="footer">
+        <div class="footer-container flex">
+            <div class="footer-credits">
+                <div class="footer-credits-photo flex">
+                    <a class="flex" title="Henry8K" href="https://www.facebook.com/NguyenSmileK/">
+                        <!-- <img class="f-h" src="../Images/Henry8K.webp" alt="Henry8K profile" width="50px" height="50px"> -->
+                        <h2>by KinSred</h2>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="footer-items">
+                <span class="sp-1">©2023 BlastMC | All Rights Reserved.</span>
+                <span class="sp-2">Minecraft is a trademark of Mojang and BlastMC is not affiliated with or endorsed by Mojang.</span>
+                <span class="sp-3">Designer by KinSred.</span>
+            </div>
+    
+            <div class="footer-socials flex">
+                <a href="https://discord.gg/blastcity2023" title="discord"><img class="discord-social" src="../Images/discord.webp" alt="discord logo" width="40px" height="40px"></a>
+                <!-- <a href="https://twitter.com" title="twitter"><img class="twitter-social" src="../Images/twitter.webp" alt="twitter logo" width="40px" height="40px"></a> -->
+                <!-- <a href="https://youtube.com" title="youtube"><img class="yt-social" src="../Images/youtube.webp" alt="youtube logo" width="40px" height="40px"></a> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/Function.js"></script>
+    <script src="../JS/General.js"></script>
+</body>
+</html>
